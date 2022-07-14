@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.titulo-seccion{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+img{
+    max-width: 100%;
+}
+.encabezado {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1rem;
+    
+}
+.logo span{
+    color: #fff;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.menu ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+.menu ul a:hover{
+    transition: all .7s ease;
+    background-color: #b36161;
+}
+
+h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.contenedor{
+    background-color: #f1f1f1;
+    width: 800px;
+    min-height: 500px;
+    margin: 2rem auto;
+    
+    display: grid;
+    gap: 5px;
+    grid-template-areas:  "item1 item2 item3 item3"
+                          "item1 item4 item5 item6"
+                          "item7 item4 item8 item8"
+                        
+}
+img{
+    max-width: 100%;
+}
+.item1{
+    grid-area: item1;
+    background: url("../img/pizza2.jpg");
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(50%);
+}
+.item2{
+    background: url("../img/pizza.jpeg");
+    background-position: center center;
+    background-size: cover;
+    grid-area: item2;
+    filter: grayscale(50%);
+}
+.item3{
+    background: url("../img/pizza3.jpg");
+    background-position: center center;
+    background-size: cover;
+    grid-area: item3;
+    filter: grayscale(50%);
+}
+
+.item4{
+    background: url("../img/pizza4.jpg");
+    background-position: center center;
+    background-size: cover;
+    grid-area: item4;
+    filter: grayscale(50%);
+}
+.item5{
+    background: url("../img/pizza5.jpg");
+    background-position: center center;
+    background-size: cover;
+    grid-area: item5;
+    filter: grayscale(50%);
+}
+.item6{
+    background: url("../img/pizza6.jpg");
+    background-position: center center;
+    background-size: cover;
+    grid-area: item6;
+    filter: grayscale(50%);
+}
+.item7{
+    background: url("../img/pizza7.jpg");
+    background-position: center center;
+    background-size: cover;
+    grid-area: item7;
+    filter: grayscale(50%);
+}
+.item8{
+    background: url("../img/pizza8.jpg");
+    background-position: center center;
+    background-size: cover;
+    grid-area: item8;
+    filter: grayscale(50%);
+}
+
+.item{
+    transition: all .5s ease;
+}
+
+.item:hover{
+    z-index: 9999;
+    border-radius: 5px;
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+footer{
+    background-color: #000;
+    padding: .7rem 1rem;
+}
+.redes-sociales ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+.redes-sociales ul li a{
+    color: #fff;
+    font-size: 24px;
+}
+.redes-sociales ul li a:hover{
+    opacity: .7;
+}
+
+
+.contenedor div:nth-child(3){
+
+}
+
